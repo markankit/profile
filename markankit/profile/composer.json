@@ -1,0 +1,24 @@
+{
+    "name": "markankit/profile",
+    "description": "Demo-package to show time",
+    "authors": [
+        {
+            "name": "Ankit",
+            "email": "info@ankit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Markankit\\Profile\\ProfileServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Markankit\\Profile\\": "src/"
+        }
+    }
+}
